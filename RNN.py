@@ -59,7 +59,9 @@ if __name__ == "__main__":
 
     # create train/test split
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
+    print("AHORA IMPRIMO XTRAIN")
     print(X_train)
+    print("AHORA IMPRIMO YTRAIN")
     print (y_train)
     # build network topology
     model = keras.Sequential([
